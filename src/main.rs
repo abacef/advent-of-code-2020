@@ -1,13 +1,13 @@
-use crate::aoc2::{solve1, solve2};
+use crate::aoc3::{solve1, solve2};
 
-mod aoc2;
+mod aoc3;
 
 fn main() {
-    let answer1 = solve1();
-    println!("answer 1: {}", answer1);
+    let val1 = solve1();
+    println!("answer1: {}", val1);
 
-    let answer2 = solve2();
-    println!("answer 2: {}", answer2)
+    let val2 = solve2();
+    println!("answer2: {}", val2)
 }
 
 

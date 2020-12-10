@@ -55,3 +55,11 @@ pub fn solve2() -> usize {
         .filter(|x| *x == true)
         .count()
 }
+
+fn main() {
+    let answer1 = solve1();
+    println!("answer 1: {}", answer1);
+
+    let answer2 = solve2();
+    println!("answer 2: {}", answer2)
+}
