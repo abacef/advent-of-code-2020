@@ -1,6 +1,6 @@
-use crate::aoc3::{solve1, solve2};
+use crate::aoc4::{solve1, solve2};
 
-mod aoc3;
+mod aoc4;
 
 fn main() {
     let val1 = solve1();

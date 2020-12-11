@@ -94,3 +94,11 @@ pub fn solve2() -> u32 {
 
     count1 * count2 * count3 * count4 * count5
 }
+
+fn main() {
+    let val1 = solve1();
+    println!("answer1: {}", val1);
+
+    let val2 = solve2();
+    println!("answer2: {}", val2)
+}
