@@ -1,15 +1,11 @@
-use crate::aoc4::{solve1, solve2};
+use crate::aoc5::{solve1, solve2};
 
-mod aoc4;
+mod aoc5;
 
 fn main() {
-    let val1 = solve1();
-    println!("answer1: {}", val1);
+    // println!("{}", solve("BFFFBBFRRR")); // 567
+    // println!("{}", solve("FFFBBBFRRR")); // 119
+    // println!("{}", solve("BBFFBBFRLL")); // 820
 
-    let val2 = solve2();
-    println!("answer2: {}", val2)
+    println!("{}", solve2())
 }
-
-
-
-

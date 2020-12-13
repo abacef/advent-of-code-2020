@@ -129,3 +129,11 @@ pub fn solve2() -> u32 {
         .filter(|x| *x)
         .count() as u32
 }
+
+fn main() {
+    let val1 = solve1();
+    println!("answer1: {}", val1);
+
+    let val2 = solve2();
+    println!("answer2: {}", val2)
+}
