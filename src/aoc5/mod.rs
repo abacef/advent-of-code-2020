@@ -54,3 +54,11 @@ pub fn solve2() -> u32 {
 
     0
 }
+
+fn main() {
+    // println!("{}", solve("BFFFBBFRRR")); // 567
+    // println!("{}", solve("FFFBBBFRRR")); // 119
+    // println!("{}", solve("BBFFBBFRLL")); // 820
+
+    println!("{}", solve2())
+}
