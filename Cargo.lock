@@ -71,7 +71,7 @@ dependencies = [
 
 [[package]]
 name = "untitled60"
-version = "6.1.0"
+version = "7.1.0"
 dependencies = [
  "bit-set",
  "reduce",

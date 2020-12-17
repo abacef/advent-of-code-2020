@@ -39,3 +39,8 @@ pub fn solve2() -> usize {
         )
         .sum()
 }
+
+fn main() {
+    println!("{}", solve1());
+    println!("{}", solve2());
+}
