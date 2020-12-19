@@ -1,6 +1,6 @@
-use crate::aoc8::{solve1, solve2};
+use crate::aoc9::{solve1, solve2};
 
-mod aoc8;
+mod aoc9;
 
 fn main() {
     println!("{}", solve1());
